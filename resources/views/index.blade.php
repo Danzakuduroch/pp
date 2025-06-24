@@ -40,6 +40,29 @@
                     <li class="intro__item">Консультации по вопросам воинской обязанности</li>
                 </ul>
             </section>
+            <section class="services">
+                <h2 class="services__title">Основные услуги</h2>
+                <p class="services__text">
+                    Военный комиссариат предоставляет широкий спектр государственных услуг для граждан:
+                </p>
+                <div class="services__cards">
+                    <div class="services__card">
+                        <div class="services__card-title">Постановка на воинский учёт</div>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card-title">Оформление и выдача военных билетов</div>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card-title">Выдача справок и архивных документов</div>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card-title">Консультации по вопросам призыва и отсрочек</div>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card-title">Организация медицинских комиссий</div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
 </body>
