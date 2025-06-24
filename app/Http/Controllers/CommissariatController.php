@@ -8,6 +8,6 @@ class CommissariatController extends Controller
 {
     public function index()
     {
-        return view('commissariat.index');
+        return view('index');
     }
 } 
