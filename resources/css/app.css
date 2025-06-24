@@ -7,7 +7,7 @@
 .header {
     background-color: #184d23; 
     border-bottom: 1px solid #0e2c13;
-    padding: 1rem 0;
+    padding: 16px 0;
     box-shadow: 0 2px 4px rgba(26, 45, 22, 0.05);
 }
 
@@ -24,7 +24,7 @@
 }
 
 .header__title {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 500;
     margin: 0;
     color: #fff;
@@ -44,11 +44,66 @@
 .nav__link {
     text-decoration: none;
     color: #fff; 
-    font-size: 1rem;
+    font-size: 16px;
     transition: color 0.3s ease;
     font-weight: 500;
 }
 
 .nav__link:hover {
     color: #b2d8b2;
+}
+
+.main {
+    padding-top: 40px;
+}
+
+.intro {
+    background-color: #fff;
+    padding: 48px 0 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 6px 24px rgba(24, 77, 35, 0.18);
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.intro__title {
+    font-size: 38px;
+    font-weight: 900;
+    color: #184d23;
+    margin-bottom: 22px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.intro__text {
+    font-size: 19px;
+    color: #184d23;
+    margin-bottom: 28px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.intro__list {
+    list-style: none;
+    padding-left: 0;
+    color: #184d23;
+}
+
+.intro__item {
+    font-size: 17px;
+    margin-bottom: 12px;
+    padding-left: 0;
+    position: relative;
+    font-weight: 600;
+}
+
+.intro__item::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #184d23;
+    border-radius: 50%;
+    margin-right: 14px;
+    vertical-align: middle;
 }
