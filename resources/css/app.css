@@ -1,14 +1,13 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
     background: #f4f7f4;
     color: #1a2d16;
-    line-height: 1.7;
 }
 
 .header {
@@ -75,7 +74,9 @@ body {
     align-items: center;
 }
 
-.intro, .services, .contactways {
+.intro,
+.services,
+.contactways {
     background-color: #fff;
     padding: 30px 32px;
     border-radius: 18px;
@@ -83,7 +84,7 @@ body {
     margin-bottom: 44px;
 }
 
-.intro__img{
+.intro__img {
     max-width: 500px;
     width: 100%;
     border-radius: 15px;
@@ -94,7 +95,9 @@ body {
     }
 }
 
-.intro__title, .services__title, .contactways__title {
+.intro__title,
+.services__title,
+.contactways__title {
     font-size: 32px;
     font-weight: 800;
     color: #184d23;
@@ -103,11 +106,12 @@ body {
     text-transform: none;
 }
 
-.intro__text, .services__text, .contactways__text {
+.intro__text,
+.services__text,
+.contactways__text {
     font-size: 18px;
     color: #184d23;
     margin-bottom: 22px;
-    line-height: 1.8;
     font-weight: 400;
 }
 
@@ -124,14 +128,16 @@ body {
     font-weight: 500;
 }
 
-.services__cards, .contactways__cards {
+.services__cards,
+.contactways__cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 24px;
     margin-top: 18px;
 }
 
-.services__card, .contactways__card {
+.services__card,
+.contactways__card {
     background: #f8fbf7;
     border-radius: 14px;
     padding: 26px 20px 20px 20px;
@@ -143,22 +149,24 @@ body {
     border: 1px solid #e0ede0;
 }
 
-.services__card:hover, .contactways__card:hover {
+.services__card:hover,
+.contactways__card:hover {
     background: #eaf6ea;
     transform: translateY(-4px);
 }
 
-.services__card-title, .contactways__card-title {
+.services__card-title,
+.contactways__card-title {
     font-size: 19px;
     font-weight: 700;
     color: #184d23;
     margin-bottom: 8px;
 }
 
-.services__card-desc, .contactways__card-desc {
+.services__card-desc,
+.contactways__card-desc {
     font-size: 15px;
     color: #184d23;
-    line-height: 1.6;
 }
 
 .footer {
@@ -234,36 +242,105 @@ body {
     text-decoration: underline;
 }
 
-@media (max-width: 900px) {
-    .container, .footer__container {
+@media (max-width: 1100px) {
+
+    .container,
+    .footer__container {
+        max-width: 100%;
         padding: 0 10px;
     }
-    .intro, .services, .contactways {
-        padding: 28px 8px 22px 8px;
+}
+
+@media (max-width: 900px) {
+
+    .intro,
+    .services,
+    .contactways,
+    .news {
+        padding: 18px 4px;
+        border-radius: 12px;
+    }
+
+    .main {
+        padding-top: 18px;
+    }
+
+    .footer {
+        padding: 24px 0 16px 0;
     }
 }
 
 @media (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .header__inner,
     .footer__inner {
         flex-direction: column;
-        gap: 18px;
-    }
-    .footer__info, .footer__contacts {
-        max-width: 100%;
-        min-width: 0;
-    }
-    .header__inner {
-        flex-direction: column;
         gap: 12px;
+        align-items: flex-start;
     }
+
+    .header__title {
+        font-size: 20px;
+    }
+
     .nav__item {
         margin-left: 0;
-        margin-right: 12px;
+        margin-right: 10px;
     }
-    .main {
-        padding-top: 24px;
+
+    .nav__link {
+        font-size: 15px;
+        padding: 6px 10px;
     }
-    .services__cards, .contactways__cards {
+
+    .intro__title,
+    .services__title,
+    .contactways__title,
+    .news__title {
+        font-size: 22px;
+    }
+
+    .intro__text,
+    .services__text,
+    .contactways__text {
+        font-size: 15px;
+    }
+
+    .services__card-title,
+    .contactways__card-title,
+    .news__card-title {
+        font-size: 16px;
+    }
+
+    .services__card,
+    .contactways__card,
+    .news__card {
+        padding: 14px 8px 10px 8px;
+        border-radius: 10px;
+        min-height: 80px;
+    }
+
+    .services__cards,
+    .contactways__cards,
+    .news__cards {
         grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .footer__title {
+        font-size: 16px;
+    }
+
+    .footer__desc,
+    .footer__contacts-item {
+        font-size: 13px;
+    }
+
+    .footer__contacts-title {
+        font-size: 14px;
     }
 }

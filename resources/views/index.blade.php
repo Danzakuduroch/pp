@@ -20,7 +20,7 @@
     </header>
     <main class="main">
         <div class="container">
-        <section class="intro">
+            <section class="intro">
                 <div class="intro__img">
                     <img src="/images/XXXL.webp" alt="">
                 </div>
