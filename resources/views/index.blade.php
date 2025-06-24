@@ -28,17 +28,25 @@
     </header>
     <main class="main">
         <div class="container">
-            <section class="intro">
-                <h2 class="intro__title">О военном комиссариате</h2>
-                <p class="intro__text">
-                    Военный комиссариат — это государственное учреждение, осуществляющее организацию воинского учёта, призыв граждан на военную службу, оформление документов, а также предоставление консультаций по вопросам, связанным с воинской обязанностью и службой.
+        <section class="contactways">
+                <h2 class="contactways__title">Взаимодействие с комиссариатом</h2>
+                <p class="contactways__text">
+                    Для получения консультаций, подачи документов или записи на приём вы можете воспользоваться следующими способами:
                 </p>
-                <ul class="intro__list">
-                    <li class="intro__item">Проведение призыва на военную службу</li>
-                    <li class="intro__item">Ведение воинского учёта граждан</li>
-                    <li class="intro__item">Оформление справок и документов</li>
-                    <li class="intro__item">Консультации по вопросам воинской обязанности</li>
-                </ul>
+                <div class="contactways__cards">
+                    <div class="contactways__card">
+                        <div class="contactways__card-title">Личное посещение</div>
+                        <div class="contactways__card-desc">Приём граждан осуществляется по адресу комиссариата в рабочие часы.</div>
+                    </div>
+                    <div class="contactways__card">
+                        <div class="contactways__card-title">Телефонная консультация</div>
+                        <div class="contactways__card-desc">Позвоните по указанному номеру для получения информации и консультаций.</div>
+                    </div>
+                    <div class="contactways__card">
+                        <div class="contactways__card-title">Электронная почта</div>
+                        <div class="contactways__card-desc">Отправьте обращение или документы на официальный email комиссариата.</div>
+                    </div>
+                </div>
             </section>
             <section class="services">
                 <h2 class="services__title">Основные услуги</h2>
@@ -62,6 +70,18 @@
                         <div class="services__card-title">Организация медицинских комиссий</div>
                     </div>
                 </div>
+            </section>
+            <section class="intro">
+                <h2 class="intro__title">О военном комиссариате</h2>
+                <p class="intro__text">
+                    Военный комиссариат — это государственное учреждение, осуществляющее организацию воинского учёта, призыв граждан на военную службу, оформление документов, а также предоставление консультаций по вопросам, связанным с воинской обязанностью и службой.
+                </p>
+                <ul class="intro__list">
+                    <li class="intro__item">Проведение призыва на военную службу</li>
+                    <li class="intro__item">Ведение воинского учёта граждан</li>
+                    <li class="intro__item">Оформление справок и документов</li>
+                    <li class="intro__item">Консультации по вопросам воинской обязанности</li>
+                </ul>
             </section>
         </div>
     </main>
