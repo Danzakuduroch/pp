@@ -6,3 +6,4 @@ use App\Http\Controllers\ContractController;
 
 Route::get('/', [CommissariatController::class, 'index'])->name('index');
 Route::get('/contracts', [ContractController::class, 'index'])->name('contracts.index');
+Route::get('/form', [ContractController::class, 'form'])->name('form.index');

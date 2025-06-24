@@ -10,4 +10,9 @@ class ContractController extends Controller
     {
         return view('contracts');
     }
+
+    public function form()
+    {
+        return view('contract-form');
+    }
 } 
