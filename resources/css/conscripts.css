@@ -1,0 +1,457 @@
+.page-title {
+    font-size: 36px;
+    color: #184d23;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.draft-info {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.draft-info__text p {
+    font-size: 16px;
+    color: #184d23;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.draft-calendar {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.draft-calendar__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.draft-period {
+    background: #f8fbf7;
+    border-radius: 14px;
+    padding: 25px;
+    border: 1px solid #e0ede0;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.draft-period.active {
+    background: #eaf6ea;
+    border: 2px solid #184d23;
+}
+
+.draft-period:hover {
+    transform: translateY(-3px);
+}
+
+.draft-period__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 15px;
+}
+
+.draft-period__dates p {
+    font-size: 14px;
+    color: #184d23;
+    margin-bottom: 8px;
+}
+
+.draft-period__status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    background: #dc3545;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.draft-period__status.active {
+    background: #28a745;
+}
+
+.required-documents {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.documents__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.document-card {
+    background: #f8fbf7;
+    border-radius: 14px;
+    padding: 25px;
+    border: 1px solid #e0ede0;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.document-card:hover {
+    background: #eaf6ea;
+    transform: translateY(-3px);
+}
+
+.document-card__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 15px;
+}
+
+.document-card__list {
+    list-style: none;
+    padding: 0;
+}
+
+.document-card__list li {
+    font-size: 14px;
+    color: #184d23;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.document-card__list li:before {
+    content: "•";
+    color: #184d23;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.medical-commission {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.medical-commission__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.medical-commission__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 25px;
+}
+
+.medical-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.medical-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.medical-step__number {
+    width: 30px;
+    height: 30px;
+    background: #184d23;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.medical-step__content h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 5px;
+}
+
+.medical-step__content p {
+    font-size: 14px;
+    color: #184d23;
+    line-height: 1.4;
+}
+
+.fitness-categories__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 20px;
+}
+
+.fitness-categories__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.fitness-category {
+    background: #f8fbf7;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #e0ede0;
+    transition: background 0.2s;
+}
+
+.fitness-category:hover {
+    background: #eaf6ea;
+}
+
+.fitness-category__title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #184d23;
+    margin-bottom: 8px;
+}
+
+.fitness-category__desc {
+    font-size: 12px;
+    color: #184d23;
+    line-height: 1.3;
+}
+
+.deferrals {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.deferrals__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.deferral-card {
+    background: #f8fbf7;
+    border-radius: 14px;
+    padding: 25px;
+    border: 1px solid #e0ede0;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.deferral-card:hover {
+    background: #eaf6ea;
+    transform: translateY(-3px);
+}
+
+.deferral-card__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 12px;
+}
+
+.deferral-card__desc {
+    font-size: 14px;
+    color: #184d23;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.deferral-card__period {
+    font-size: 12px;
+    color: #856404;
+    font-weight: 600;
+    background: #fff3cd;
+    padding: 6px 10px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.rights-obligations {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.rights-obligations__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.rights__title,
+.obligations__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 20px;
+}
+
+.rights__list,
+.obligations__list {
+    list-style: none;
+    padding: 0;
+}
+
+.rights__list li,
+.obligations__list li {
+    font-size: 14px;
+    color: #184d23;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.4;
+}
+
+.rights__list li:before {
+    content: "✓";
+    color: #28a745;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.obligations__list li:before {
+    content: "→";
+    color: #184d23;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.important-contacts {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.important-contacts__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.important-contact {
+    background: #f8fbf7;
+    border-radius: 14px;
+    padding: 25px;
+    border: 1px solid #e0ede0;
+    text-align: center;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.important-contact:hover {
+    background: #eaf6ea;
+    transform: translateY(-3px);
+}
+
+.important-contact__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 15px;
+}
+
+.important-contact__phone {
+    font-size: 18px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 8px;
+}
+
+.important-contact__desc {
+    font-size: 14px;
+    color: #184d23;
+}
+
+/* Адаптивность для страницы призывников */
+@media (max-width: 900px) {
+    .draft-calendar__grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .documents__grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .medical-commission__content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .deferrals__grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .rights-obligations__content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .important-contacts__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .draft-info,
+    .draft-calendar,
+    .required-documents,
+    .medical-commission,
+    .deferrals,
+    .rights-obligations,
+    .important-contacts {
+        padding: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .draft-period,
+    .document-card,
+    .deferral-card,
+    .important-contact {
+        padding: 20px;
+    }
+    
+    .medical-step {
+        gap: 10px;
+    }
+    
+    .medical-step__number {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+    
+    .fitness-categories__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 

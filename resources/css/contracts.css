@@ -1,0 +1,90 @@
+.contracts-page {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.contracts-page h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #184d23;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contracts-page p {
+    font-size: 18px;
+    color: #184d23;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.services__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.services__card-btn {
+    text-decoration: none;
+    display: block;
+}
+
+.services__card {
+    background: #f8fbf7;
+    border-radius: 14px;
+    padding: 25px;
+    border: 1px solid #e0ede0;
+    transition: transform 0.2s, background 0.2s;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.services__card:hover {
+    background: #eaf6ea;
+    transform: translateY(-5px);
+}
+
+.services__card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 15px;
+}
+
+.services__card-desc {
+    font-size: 14px;
+    color: #184d23;
+    line-height: 1.5;
+}
+
+/* Адаптивность для страницы контрактов */
+@media (max-width: 900px) {
+    .services__cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .contracts-page {
+        padding: 25px;
+    }
+    
+    .contracts-page h1 {
+        font-size: 28px;
+    }
+    
+    .contracts-page p {
+        font-size: 16px;
+    }
+    
+    .services__card {
+        padding: 20px;
+    }
+} 

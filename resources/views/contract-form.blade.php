@@ -1,3 +1,5 @@
+@vite(['resources/css/forms.css'])
+
 @extends('index')
 
 @section('content')

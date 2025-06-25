@@ -1,3 +1,5 @@
+@vite(['resources/css/contacts.css'])
+
 @extends('index')
 
 @section('content')

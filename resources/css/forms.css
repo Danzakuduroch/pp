@@ -1,0 +1,91 @@
+.contract-form__wrapper {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contract-form__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contract-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contract-form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contract-form__label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #184d23;
+}
+
+.contract-form__input {
+    padding: 12px 16px;
+    border: 2px solid #e0ede0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #184d23;
+    background: #f8fbf7;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.contract-form__input:focus {
+    outline: none;
+    border-color: #184d23;
+    background: #fff;
+}
+
+.contract-form__submit {
+    background: #184d23;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    margin-top: 10px;
+}
+
+.contract-form__submit:hover {
+    background: #0e2c13;
+    transform: translateY(-2px);
+}
+
+/* Адаптивность для форм */
+@media (max-width: 700px) {
+    .contract-form__wrapper {
+        padding: 25px;
+        margin: 20px;
+    }
+    
+    .contract-form__title {
+        font-size: 24px;
+    }
+    
+    .contract-form__input {
+        padding: 10px 14px;
+    }
+    
+    .contract-form__submit {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+} 
