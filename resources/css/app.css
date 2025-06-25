@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -144,7 +145,7 @@ body {
     margin-top: 18px;
 
     a {
-    text-decoration: none;
+        text-decoration: none;
     }
 }
 
@@ -256,6 +257,7 @@ body {
 }
 
 @media (max-width: 1100px) {
+
     .container,
     .footer__container {
         max-width: 100%;
@@ -264,6 +266,7 @@ body {
 }
 
 @media (max-width: 900px) {
+
     .intro,
     .services,
     .contactways,
@@ -378,7 +381,8 @@ body {
     transition: color 0.2s, background 0.2s, box-shadow 0.2s;
 }
 
-.header__menu-link:hover, .header__menu-link.active {
+.header__menu-link:hover,
+.header__menu-link.active {
     color: #184d23;
     background: #b2d8b2;
     box-shadow: 0 2px 8px rgba(24, 77, 35, 0.10);
@@ -388,6 +392,7 @@ body {
     .header__menu-list {
         gap: 10px;
     }
+
     .header__menu-link {
         font-size: 15px;
         padding: 6px 10px;
@@ -469,15 +474,265 @@ body {
     .contract-form__wrapper {
         padding: 18px 8px 18px 8px;
     }
+
     .contract-form__title {
         font-size: 22px;
     }
+
     .contract-form__input {
         font-size: 15px;
         padding: 8px 10px;
     }
+
     .contract-form__submit {
         font-size: 16px;
         padding: 10px 0;
+    }
+}
+
+.page-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #184d23;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-info {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.contact-info__main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.contact-info__item {
+    padding: 20px;
+    background: #f8fbf7;
+    border-radius: 12px;
+    border: 1px solid #e0ede0;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.contact-info__item:hover {
+    background: #eaf6ea;
+    transform: translateY(-3px);
+}
+
+.contact-info__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 15px;
+}
+
+.contact-info__text {
+    font-size: 16px;
+    color: #184d23;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.departments {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.departments__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.department-card {
+    background: #f8fbf7;
+    border-radius: 14px;
+    padding: 25px;
+    border: 1px solid #e0ede0;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.department-card:hover {
+    background: #eaf6ea;
+    transform: translateY(-3px);
+}
+
+.department-card__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 12px;
+}
+
+.department-card__desc {
+    font-size: 14px;
+    color: #184d23;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.department-card__phone,
+.department-card__room {
+    font-size: 14px;
+    color: #184d23;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.how-to-reach {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.how-to-reach__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.how-to-reach__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 20px;
+}
+
+.transport-item {
+    font-size: 16px;
+    color: #184d23;
+    margin-bottom: 12px;
+    padding: 10px;
+    background: #f8fbf7;
+    border-radius: 8px;
+    border: 1px solid #e0ede0;
+    transition: background 0.2s;
+}
+
+.transport-item:hover {
+    background: #eaf6ea;
+}
+
+.how-to-reach__parking p {
+    font-size: 16px;
+    color: #184d23;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.emergency-contacts {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(24, 77, 35, 0.10);
+    margin-bottom: 40px;
+}
+
+.emergency-contacts__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.emergency-contact {
+    background: #fff3cd;
+    border: 2px solid #ffc107;
+    border-radius: 14px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.emergency-contact:hover {
+    background: #ffeaa7;
+    transform: translateY(-3px);
+}
+
+.emergency-contact__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #856404;
+    margin-bottom: 15px;
+}
+
+.emergency-contact__phone {
+    font-size: 20px;
+    font-weight: 700;
+    color: #184d23;
+    margin-bottom: 8px;
+}
+
+.emergency-contact__desc {
+    font-size: 14px;
+    color: #856404;
+}
+
+@media (max-width: 900px) {
+    .contact-info__main {
+        grid-template-columns: 1fr;
+    }
+
+    .departments__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .how-to-reach__content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .emergency-contacts__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .page-title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .contact-info,
+    .departments,
+    .how-to-reach,
+    .emergency-contacts {
+        padding: 25px;
+        margin-bottom: 30px;
+    }
+
+    .contact-info__item {
+        padding: 15px;
+    }
+
+    .department-card {
+        padding: 20px;
+    }
+
+    .emergency-contact {
+        padding: 20px;
     }
 }
