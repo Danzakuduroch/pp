@@ -151,7 +151,7 @@ body {
 
 .services__card,
 .contactways__card {
-    background: #f8fbf7;
+    background: #e8f5e8;
     border-radius: 14px;
     padding: 26px 20px 20px 20px;
     display: flex;
@@ -159,12 +159,12 @@ body {
     align-items: flex-start;
     transition: transform 0.2s, background 0.2s;
     min-height: 120px;
-    border: 1px solid #e0ede0;
+    border: 1px solid #c8e6c8;
 }
 
 .services__card:hover,
 .contactways__card:hover {
-    background: #eaf6ea;
+    background: #d4edc4;
     transform: translateY(-4px);
 }
 

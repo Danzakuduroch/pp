@@ -35,10 +35,10 @@
 }
 
 .services__card {
-    background: #f8fbf7;
+    background: #e8f5e8;
     border-radius: 14px;
     padding: 25px;
-    border: 1px solid #e0ede0;
+    border: 1px solid #c8e6c8;
     transition: transform 0.2s, background 0.2s;
     min-height: 150px;
     display: flex;
@@ -47,7 +47,7 @@
 }
 
 .services__card:hover {
-    background: #eaf6ea;
+    background: #d4edc4;
     transform: translateY(-5px);
 }
 

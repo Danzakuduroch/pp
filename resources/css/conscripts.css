@@ -43,15 +43,15 @@
 }
 
 .draft-period {
-    background: #f8fbf7;
+    background: #e8f5e8;
     border-radius: 14px;
     padding: 25px;
-    border: 1px solid #e0ede0;
+    border: 1px solid #c8e6c8;
     transition: transform 0.2s, background 0.2s;
 }
 
 .draft-period.active {
-    background: #eaf6ea;
+    background: #d4edc4;
     border: 2px solid #184d23;
 }
 
@@ -102,15 +102,15 @@
 }
 
 .document-card {
-    background: #f8fbf7;
+    background: #e8f5e8;
     border-radius: 14px;
     padding: 25px;
-    border: 1px solid #e0ede0;
+    border: 1px solid #c8e6c8;
     transition: transform 0.2s, background 0.2s;
 }
 
 .document-card:hover {
-    background: #eaf6ea;
+    background: #d4edc4;
     transform: translateY(-3px);
 }
 
@@ -216,16 +216,16 @@
 }
 
 .fitness-category {
-    background: #f8fbf7;
+    background: #e8f5e8;
     border-radius: 10px;
     padding: 15px;
     text-align: center;
-    border: 1px solid #e0ede0;
+    border: 1px solid #c8e6c8;
     transition: background 0.2s;
 }
 
 .fitness-category:hover {
-    background: #eaf6ea;
+    background: #d4edc4;
 }
 
 .fitness-category__title {
@@ -256,15 +256,15 @@
 }
 
 .deferral-card {
-    background: #f8fbf7;
+    background: #e8f5e8;
     border-radius: 14px;
     padding: 25px;
-    border: 1px solid #e0ede0;
+    border: 1px solid #c8e6c8;
     transition: transform 0.2s, background 0.2s;
 }
 
 .deferral-card:hover {
-    background: #eaf6ea;
+    background: #d4edc4;
     transform: translateY(-3px);
 }
 
@@ -361,16 +361,16 @@
 }
 
 .important-contact {
-    background: #f8fbf7;
+    background: #e8f5e8;
     border-radius: 14px;
     padding: 25px;
-    border: 1px solid #e0ede0;
+    border: 1px solid #c8e6c8;
     text-align: center;
     transition: transform 0.2s, background 0.2s;
 }
 
 .important-contact:hover {
-    background: #eaf6ea;
+    background: #d4edc4;
     transform: translateY(-3px);
 }
 

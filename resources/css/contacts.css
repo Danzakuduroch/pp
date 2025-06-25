@@ -29,14 +29,14 @@
 
 .contact-info__item {
     padding: 20px;
-    background: #f8fbf7;
+    background: #e8f5e8;
     border-radius: 12px;
-    border: 1px solid #e0ede0;
+    border: 1px solid #c8e6c8;
     transition: transform 0.2s, background 0.2s;
 }
 
 .contact-info__item:hover {
-    background: #eaf6ea;
+    background: #d4edc4;
     transform: translateY(-3px);
 }
 
@@ -69,15 +69,15 @@
 }
 
 .department-card {
-    background: #f8fbf7;
+    background: #e8f5e8;
     border-radius: 14px;
     padding: 25px;
-    border: 1px solid #e0ede0;
+    border: 1px solid #c8e6c8;
     transition: transform 0.2s, background 0.2s;
 }
 
 .department-card:hover {
-    background: #eaf6ea;
+    background: #d4edc4;
     transform: translateY(-3px);
 }
 
@@ -129,14 +129,14 @@
     color: #184d23;
     margin-bottom: 12px;
     padding: 10px;
-    background: #f8fbf7;
+    background: #e8f5e8;
     border-radius: 8px;
-    border: 1px solid #e0ede0;
+    border: 1px solid #c8e6c8;
     transition: background 0.2s;
 }
 
 .transport-item:hover {
-    background: #eaf6ea;
+    background: #d4edc4;
 }
 
 .how-to-reach__parking p {
